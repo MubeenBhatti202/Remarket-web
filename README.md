@@ -1,2 +1,2 @@
 # Remarket-web
-Remarket Fornt End HTML CSS Bootstrap v 3.4.1
+Re-market Front-End HTML CSS Bootstrap 3.4.1
