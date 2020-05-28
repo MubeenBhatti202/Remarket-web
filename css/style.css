@@ -560,18 +560,26 @@ General Features
   font-size: 15px;
   color: #b9c8eb;
 }
+.titleGeneral {
+  width: 555px;
+  height: 140px;
+  float: right;
+
+}
+.titleGeneral-B {
+  width: 555px;
+  height: 140px;
+  float: left;
+
+}
 .captionIcon {
   margin-top: 15px;
   margin-left: 15px;
   float: left;
-  width: 55px;
-  height: 55px;
-  border-radius: 100%;
-  border: 3px solid #37967b;
 }
 .captionIcon i {
   color: #37967b;
-  font-size: 18px;
+  font-size: 30px;
   padding-top: 15px;
   padding-left: 15px;
 }
