@@ -115,7 +115,7 @@ logo
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #5574bf;
+  color: #adc1ef;
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
@@ -194,6 +194,27 @@ logo
 .btn-navy:hover {
   background-color: transparent;
   color: #616775;
+}
+.btn-navyLight {
+  background-color: #7081a9;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-weight: 700;
+  border: 1px solid #7081a9;
+}
+.btn-navyLight:hover {
+  background-color: #889dce;
+  color: #fff;
 }
 .btn-footer {
   background-color: #26bc58;
@@ -591,6 +612,9 @@ General Features
 /*--------------------------------------------------------------
 Our Agents
 --------------------------------------------------------------*/
+.OurAgents {
+  margin-bottom: 130px;
+}
 .thumbnail-Popular-B{
   width: 263px;
   height: 386px;
@@ -639,7 +663,11 @@ Footer
 --------------------------------------------------------------*/
 #footer {
   background-color: #252e42;
-  margin-top: 130px;
+  background: url(../images/footer_page.webp) top center;
+}
+.footergradient {
+  
+  background-image: linear-gradient(0deg, rgb(37, 46, 66,70), rgba(37, 46, 66, 0.90));
 }
 .footerHead h1{
   color: #fff;
@@ -735,4 +763,152 @@ Footer
   padding-top: 8px;
 }
 
+/*--------------------------------------------------------------
+02-home page
+--------------------------------------------------------------*/
+
+#hero-home {
+  width: 100%;
+  height: 66vh;
+  background: url(../images/map.JPG) top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 5, 25, 0.9);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.navbar-default02 {
+    background-color: #4c6193;
+    border: none;
+}
+.navbar02 {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+ {
+    margin-top: 8px;
+    margin-left: 200px;
+}
+.jumbotron02 {
+  /*background-color: red;*/
+  margin-top: 440px;
+  background: rgba(0, 5, 25, 0.9);
+  
+  position: absolute;
+  width: 100%;
+}
+#header02 {
+  background: #4c6193;
+  min-height: 655px;
+  padding: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+.amzingExperience {
+  background-color: #f7f8f8;
+  width: 100%;
+  height: 890px;
+  margin-top: 140px;
+}
+.testimonials {
+  background-color: #f7f8f8;
+  width: 100%;
+  height: 700px;
+  margin-top: 140px;
+}
+.amzingExperienceImage {
+  width: 100%;
+  height: 373px;
+}
+.whiteButton-icon {
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  border: 0px solid red;
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+}
+.whiteButton-icon i {
+  font-size: 30px;
+  padding-top: 24px;
+  padding-left: 24px;
+  color: #4c6193;
+}
+.inverstment-Dec h3 {
+  font-size: 22px;
+  color: #4c6193;
+  margin-top: 40px;
+}
+.inverstment-Dec p {
+  font-size: 15px;
+}
+.inverstment-btn {
+  margin-top: 20px;
+}
+.personalInvestment {
+  margin-top: 150px;
+}
+.thumbnail-Testimonials{
+  width: 360px;
+  height: 174px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
+.thumbnail-Testimonials p {
+  font-size: 16px;
+  text-align: left;
+  padding-top: 20px;
+  line-height: 28px;
+}
+.widget-Testimonials {
+  width: 200px;
+  margin-top: 50px;
+}
+.image-circle {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+.image-circleTitle {
+  width: 125px;
+  float: right;
+}
+
+.image-circle img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+}
 
