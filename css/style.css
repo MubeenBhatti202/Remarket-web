@@ -445,6 +445,7 @@ Popular listings
 .caption-Popular a{
   color: #a0a7b1;
   display: inline-block;
+  position: relative;
   float: right;
   margin: 5px;
 }
@@ -794,7 +795,7 @@ Footer
 }
 #hero-Properties {
   width: 100%;
-  height: 90vh;
+  height: 120vh;
   background: url(../images/03_Properties_Image_Standart.webp) top center;
   background-size: contain;
   position: relative;
@@ -949,7 +950,7 @@ Footer
 03_Properties_Image_Standart
 --------------------------------------------------------------*/
 
-.main03 {
+#main03 {
   background-color: #f7f8f8;
 }
 .jumbotron03{
@@ -986,15 +987,14 @@ Footer
   width: 300px;
   height: 380px;
 }
-
 .panel {
     margin-bottom: 20px;
     background-color: #fff;
     border: 0px solid transparent;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: transparent;
-        border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -1031,14 +1031,14 @@ Footer
     top: 170px;
     left: 24px;
 }
-.caption-Popular h3{
+/*.caption-Popular h3{
   display: inline-block;
   float: left;
-}
+}*/
 .caption-Popular h6{
   display: inline-block;
-  padding: 15px;
-  float: right;
+  padding: 0px;
+  float: left;
 }
 .contact_text03 {
   color: #000;
@@ -1053,6 +1053,144 @@ Footer
   margin-top: 25px;
 }
 .widget-heading > h4{
-   margin-top: 30px;
+   margin-top: 62px;
    margin-bottom: 30px;
 }
+.btn-group {
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+}
+
+.caption-properties h3{
+  display: inline-block;
+  font-size: 20px;
+  color: #26bc58;
+  padding-left: 20px;
+
+}
+.caption-properties h6 {
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.rentList-detailsTitle {
+  float: right;
+  width: 60%;
+  position: absolute;
+}
+.rentalListWeigt {
+  width: 790px;
+  height: 190px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 45px;
+}
+.margintopRent {
+  margin-top: 50px;
+}
+.rentalListWeigt-img {
+  width: 40%;
+  height: 190px;
+  float: left;
+}
+.rentalListWeigt-img img {
+  width: 285px;
+  height: 189px;
+  border-radius: 4px 0 0 4px;
+  position: relative;
+}
+.rentalListWeigt-title {
+  width: 60%;
+  height: 190px;
+  float: left;
+}
+.rentalListWeigt-title h3{
+  color: #242a3a;
+  font-size: 18px;
+}
+.rentalListWeigt-title p{
+  color: #727f90;
+  font-size: 12px;
+}
+.rentalListWeigt-title h2{
+  color: #26bc58;
+  font-size: 24px;
+}
+.rentalListWeigt-title h5{
+  color: #242a3a;
+  font-size: 12px;
+  display: inline-block;
+}
+.rentalListWeigt-title a{
+  color: #e6e8ea;
+  float: right;
+  margin-right: 20px;
+  display: inline-block;
+}
+.btnRentImg {
+  position: absolute;
+  top: 72%;
+  left: 7%;
+  padding-top: 2px;
+}
+.btn-Newest{
+  width: 120px;
+  height: 50px;
+  color: #dddfe3;
+  border:#dcdfe2;
+  background: #fff;
+}
+.btn-Newest:hover{
+  color: #a6e1ba;
+  border:#dcdfe2;
+  background: #fff;
+}
+.btn-Newest_cart {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border: #f7f8f8; 
+}
+.btn-Newest_cart > span{
+  color: #c7cdd3;
+}
+.btn-Newest_cart:hover {
+  background: #fff;
+  border: #f7f8f8; 
+}
+.btn-Newest b {
+  color: #000;
+}
+.pagination03 {
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    font-size: 16px;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #b9c0c7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    background-color: transparent;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 0px;
+    border: none;
+    border-radius: 50%;
+    background-color: #5574bf;
+    color: #fff;
+    width: 33px;
+    padding-left: 15px;
+}
+
