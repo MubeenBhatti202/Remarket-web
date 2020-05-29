@@ -25,7 +25,7 @@ p{
 }
 
 a:hover, a:active, a:focus {
-  color: #ffffff;
+  color: #26bc58;
   outline: none;
   text-decoration: none;
 }
@@ -173,6 +173,24 @@ logo
 .btn:hover {
   background-color: transparent;
   color: #26bc58;
+}
+.btnPage03 {
+  width: 100px;
+  height: 30px;
+  color: #727f90;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-weight: 700; 
+  margin-top: 25px;
+}
+.btnPage03 :hover{
+  color: #34c063;
 }
 .btn-navy {
   background-color: #616775;
@@ -774,8 +792,24 @@ Footer
   background-size: cover;
   position: relative;
 }
+#hero-Properties {
+  width: 100%;
+  height: 90vh;
+  background: url(../images/03_Properties_Image_Standart.webp) top center;
+  background-size: contain;
+  position: relative;
+}
 
 #hero:before {
+  content: "";
+  background: rgba(0, 5, 25, 0.9);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero-Properties:before {
   content: "";
   background: rgba(0, 5, 25, 0.9);
   position: absolute;
@@ -813,10 +847,8 @@ Footer
     margin-left: 200px;
 }
 .jumbotron02 {
-  /*background-color: red;*/
   margin-top: 440px;
   background: rgba(0, 5, 25, 0.9);
-  
   position: absolute;
   width: 100%;
 }
@@ -912,3 +944,115 @@ Footer
 
 }
 
+
+/*--------------------------------------------------------------
+03_Properties_Image_Standart
+--------------------------------------------------------------*/
+
+.main03 {
+  background-color: #f7f8f8;
+}
+.jumbotron03{
+  background-color: transparent;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+}
+.jumbotron03 p {
+  font-size: 17px;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  z-index: 900;
+}
+.properties {
+  margin-top: 50px;
+}
+.btn-group {
+  margin-top: 10px;
+}
+.pageThreeMap {
+  width: 300px;
+  height: 390px;
+  margin-top: 50px;
+}
+.pageThreeMap img{
+  width: 300px;
+  height: 380px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 0px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-default > .panel-heading {
+    color: #5574bf;
+    background-color: transparent;
+    border-color: none;
+    border:none;
+    font-size: 12px;
+}
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+}
+.thumbnail-Popular03{
+  width: 300px;
+  height: 290px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
+.thumbnail-Popular03 img {
+  width: 300px;
+  height: 220px;
+  border-radius: 4px 4px 0 0;
+}
+.thumbnail-img a {
+    position: absolute;
+    z-index: 100;
+    top: 170px;
+    left: 24px;
+}
+.caption-Popular h3{
+  display: inline-block;
+  float: left;
+}
+.caption-Popular h6{
+  display: inline-block;
+  padding: 15px;
+  float: right;
+}
+.contact_text03 {
+  color: #000;
+}
+.contact_icon03 {
+  padding-left: 15px;
+  color: #000;
+}
+..footerCaption03 h3 {
+  color: #000;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.widget-heading > h4{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
