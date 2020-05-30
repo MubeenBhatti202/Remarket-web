@@ -1477,3 +1477,23 @@ position:absolute;
 .btnPage09{
   margin-left: 70px;
 }
+/*--------------------------------------------------------------
+10_Properties_Grid_View_Large_Sidebar
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+11_Properties_Grid_View_Large_Sidebar
+--------------------------------------------------------------*/
+.map11{
+  width: 100%;
+  height: 560px;
+  background-color: red;
+}
+.container-fluid11 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
