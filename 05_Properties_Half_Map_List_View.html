@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Mubeen">
+		<meta name="keywords" content="html, css, Bootstrap">
+		<meta name="descripton" content="Leaning Bootstrap stuff here">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>05_Properties_Half_Map_List_View</title>
+		<!-- bootstrap link -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<!-- Custom Css -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- font aowsome -->
+		<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+<!--==========================
+Header
+============================-->
+			<header id="header04">
+				
+					<div class="container-fluid">
+						<nav class="navbar02 navbar-default">
+							<div class="container-fluid">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<a class="navbar-brand navbar-brand05" href="#">
+										<span>Remarket</span></a>
+								</div>
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#remarket" aria-expanded="false">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									</button>
+								</div>
+
+								<!-- Collect the nav links, forms, and other content for toggling -->
+
+								<div class="collapse navbar-collapse" id="remarket">
+										<ul class="nav nav05 navbar-nav">
+											 <li>
+												<div class="input-group input-group05 rm-input-group">
+												<span class="input-group-btn">
+												<button class="btn btn-default" type="button">Buy
+												<span class="caret"></span>
+												</button>
+												</span>
+												<input type="text" class="form-control" placeholder="Enter an address, neighborhood or city">
+												<span class="input-group-btn">
+												<button class="btn btn-default" type="button">SEARCH
+												<span class="caret"></span>
+												</button>
+												</span>
+												</div><!-- /input-group -->
+											</li>
+										</ul>
+									<ul class="nav nav05 navbar-nav">
+									
+										<li><a href="index.html">Home</a></li>
+										<li><a href="properties.html" target="_blank">Properties</a></li>
+										<li><a href="14_Single_Property.html">Agents</a></li>
+										<li><a href="#">Pages</a></li>
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contect<span class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a href="#">Home</a></li>
+												<li><a href="#">Properties</a></li>
+												<li><a href="#">Agents</a></li>
+												<li><a href="#">Pages</a></li>
+												<li role="separator" class="divider"></li>
+												<li><a href="#">Contect</a></li>
+											</ul>
+										</li>
+									</ul>
+									<form class="navbar-form navbar-right">
+										
+										<a href="#" class="btn-simple">
+											<i class="glyphicon glyphicon-heart">	
+											</i> &nbsp;Saved
+										</a>
+										<button type="submit" class="btn-navyLight">Sign in</button>
+									</form>
+								</div>
+							</div>
+						</nav>
+					</div>
+			</header>
+<!--==========================
+Hero Section
+============================-->				
+			<main id="main03">
+				<section>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-5 colpage05">
+								<div class="page05mapImage">
+									<img src="images/thumbnail.jfif">
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="row">
+									<div class="col-md-12">
+										<ul class="nav nav05 nav-tabs marginpage5"> 
+											<li role="presentation" class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												Listing Type <span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Properties</a></li>
+												</ul>
+											</li>
+											<li role="presentation" class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												Any Price <span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Properties</a></li>
+												</ul>
+											</li>
+											<li role="presentation" class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												 Beds<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Properties</a></li>
+												</ul>
+											</li>
+											<li role="presentation" class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												Home Type <span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Properties</a></li>
+												</ul>
+											</li>
+										</ul>
+										<div class="btn-group ">
+											<button type="button" class="btn btn-Newest
+											" >Sort: <b>NEWEST</b></button>
+											<button type="button" class="btn btn-Newest_cart dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span class="caret"></span>
+											<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Another action</a></li>
+												<li><a href="#">Something else here</a></li>
+												<li role="separator" class="divider"></li>
+												<li><a href="#">Separated link</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="rentalListWeigt05 margintopRent">
+											<div class="rentalListWeigt-img">
+												<img src="images/page07001.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>Family Condo</h3>
+												<p>W 79th St, New York, NY</p>
+												<h2>$4,250</h2>
+												<h5>2 bds  ∙  1 ba  ∙  500 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<div class="rentalListWeigt05">
+											<div class="rentalListWeigt-img">
+												<img src="images/page07002.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>Riverside House</h3>
+												<p>432 Park Ave # PH95, New York, NY 10022</p>
+												<h2>$5,000</h2>
+												<h5>3 bds  ∙  2 ba  ∙  750 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<div class="rentalListWeigt05">
+											<div class="rentalListWeigt-img">
+												<img src="images/page07003.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>Penthouse With Garden</h3>
+												<p>160 W 66th St # 44AB, New York, NY 10023</p>
+												<h2>$25,000</h2>
+												<h5>4 bds  ∙  4.5 ba  ∙  1100 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<div class="rentalListWeigt05">
+											<div class="rentalListWeigt-img">
+												<img src="images/page07004.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>Townhouse</h3>
+												<p>160 W 66th St # 44AB, New York, NY 10023</p>
+												<h2>$1,495</h2>
+												<h5>4 bds  ∙  4.5 ba  ∙  1100 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<div class="rentalListWeigt05">
+											<div class="rentalListWeigt-img">
+												<img src="images/page07005.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>Water House</h3>
+												<p>160 W 66th St # 44AB, New York, NY 10023</p>
+												<h2>$5,600</h2>
+												<h5>4 bds  ∙  4.5 ba  ∙  1100 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<div class="rentalListWeigt05">
+											<div class="rentalListWeigt-img">
+												<img src="images/page07006.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>Private Apartments </h3>
+												<p>160 W 66th St # 44AB, New York, NY 10023</p>
+												<h2>$9,875</h2>
+												<h5>4 bds  ∙  4.5 ba  ∙  1100 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<div class="rentalListWeigt05">
+											<div class="rentalListWeigt-img">
+												<img src="images/page07007.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>One-of-a-kind Duplex</h3>
+												<p>160 W 66th St # 44AB, New York, NY 10023</p>
+												<h2>$8,625</h2>
+												<h5>4 bds  ∙  4.5 ba  ∙  1100 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<div class="rentalListWeigt05">
+											<div class="rentalListWeigt-img">
+												<img src="images/page01004.webp" alt="rentDetail">
+												<a href="#" class="btn-forRent btnRentImg">for Rent</a>
+											</div>
+											<div class="rentalListWeigt-title">
+												<h3>Magnificent Apartments</h3>
+												<p>100 Central Park S APT 7A, New York, NY 10019</p>
+												<h2>$49,000</h2>
+												<h5>4 bds  ∙  4.5 ba  ∙  3,016 sqft</h5>
+												<a href="#">
+													<i class="glyphicon glyphicon-chevron-right"></i>
+												</a>
+											</div>
+										</div>
+										<!-- pagination -->
+										<div class="pagination">
+											<div class="pagination03">
+												<nav aria-label="Page navigation  text-center pagination03style">
+													<ul class="pagination">
+														<li><a href="#">1</a></li>
+														<li><a href="04_Properties_List_View.html">2</a></li>
+														<li><a href="05_Properties_Half_Map_List_Vie.html">3</a></li>
+														<li>
+														<a href="#" aria-label="Next">
+														<span aria-hidden="true">Next</span>
+														</a>
+														</li>
+													</ul>
+												</nav>
+											</div>
+										</div><!-- pagination -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	</body>
+</html>

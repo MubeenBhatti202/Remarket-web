@@ -84,7 +84,13 @@ logo
   padding: 0;
   margin-top: 10px;
   display: inherit;
-
+}
+.navbar-brand05 span  {
+  color: #fff;
+  font-size: 18px;
+  padding: 0;
+  margin-top: 7px;
+  display: inherit;
 }
 .nav {
   margin-top: 5px;
@@ -1095,6 +1101,7 @@ Footer
   width: 40%;
   height: 190px;
   float: left;
+  position: relative;
 }
 .rentalListWeigt-img img {
   width: 285px;
@@ -1175,7 +1182,7 @@ Footer
     position: relative;
     float: left;
     font-size: 16px;
-    padding: 6px 12px;
+    padding: 6px 20px;
     margin-left: -1px;
     line-height: 1.42857143;
     color: #b9c0c7;
@@ -1193,7 +1200,9 @@ Footer
     width: 33px;
     padding-left: 15px;
 }
-/*04*/
+/*--------------------------------------------------------------
+04_Properties_List_View
+--------------------------------------------------------------*/
 
 #header04 {
   background: #4c6193;
@@ -1233,8 +1242,51 @@ Footer
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid \9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     float: right;
+}
+/*--------------------------------------------------------------
+05_Properties_Half_Map_List_View
+--------------------------------------------------------------*/
+.nav05 {
+    margin-top: 8px;
+    margin-left: 0px;
+    float: left;
+}
+.marginpage5 {
+  margin-top: 18px;
+}
+.input-group05 {
+    width: 450px;
+    margin: 0;
+    margin-top: 2spx;
+}
+.rentalListWeigt05 {
+  width: 740px;
+  height: 190px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 0px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    font-size: 12px;
+}
+.col-md-5.colpage05 {
+    width: 41.66666667%;
+    margin: -15;
+    padding: 0px;
+}
+.page05mapImage img {
+  width: 97%;
+}
+.btnpage05 {
+  position: absolute;
+  top: 50%
+  left: 20%;
 }
