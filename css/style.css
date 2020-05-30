@@ -1290,3 +1290,30 @@ Footer
   top: 50%
   left: 20%;
 }
+
+/*--------------------------------------------------------------
+06_Properties_List_View_Full_Width
+--------------------------------------------------------------*/
+.rentalListWeigt06 {
+  width: 98%;
+  height: 190px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 0px;
+}
+.rentalListWeigt-img06 {
+    width: 28%;
+    height: 190px;
+    float: left;
+    position: relative;
+}
+.rentalListWeigt-title06 {
+    width: 72%;
+    height: 190px;
+    float: left;
+}
+.pagination06 {
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
