@@ -1407,3 +1407,37 @@ position:absolute;
 .gridView07 {
   margin-left: 50px;
 }
+
+/*--------------------------------------------------------------
+08_Properties_Half_Map_Grid_View
+--------------------------------------------------------------*/
+.gridView08 {
+    margin-left: -15px;
+}
+
+.thumbnail-Popular08{
+  width: 370px;
+  height: 398px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+  position: relative;
+  margin-bottom: 35px;
+}
+.thumbnail-Popular08 img {
+  width: 370px;
+  height: 225px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+}
+.thumbnail-img08 a {
+    position: absolute;
+    z-index: 100;
+    top: 170px;
+    left: 24px;
+}
+.pagination03 {
+  margin-left: 280px;
+  margin-bottom: 100px;
+}
