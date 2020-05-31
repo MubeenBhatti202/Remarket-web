@@ -1505,3 +1505,296 @@ position:absolute;
   height: 860px;
   background-color: red;
 }
+/*--------------------------------------------------------------
+13_Properties_Map_Hover
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+14_Single_Property_1
+--------------------------------------------------------------*/
+.downtown14 {
+  margin-top: 78px;
+}
+.downtown14 p{
+  width: 270px;
+  font-size: 12px;
+  color: #c5cad1;
+}
+.button14 {
+  width: 200px;
+  margin-top: 95px;
+  margin-left: 50px;
+}
+.agent14price {
+  margin-top: 85px; 
+}
+.agent14price h3 {
+  font-size: 24px;
+  color: #26bc58;
+}
+.agent14price p {
+  font-size: 12px;
+  color: #c5cad1;
+}
+
+
+.thumbnail-Downtown {
+  width: 790px;
+  height: 680px;
+  margin-top: 50px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
+.thumbnail-Downtown img {
+  width: 790px;
+  height: 520px;
+  border-radius: 4px 4px 0 0;
+}
+.thumbnail-img a {
+    position: absolute;
+    z-index: 100;
+    top: 170px;
+    left: 24px;
+}
+
+.caption.caption-Popular14{
+  padding: 15px;
+}
+
+.caption-Popular14 p{
+  color: #727f90;
+  font-size: 15px;
+  line-height: 25px;
+}
+.factsFeatures {
+  border:1px solid red;
+}
+
+.factsFeatures h3{
+  color: #4c6193;
+  font-size: 14px;
+}
+.facts-Featureslist ul{
+  line-height: 30px;
+  list-style-type: none;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.facts-Featureslist ul i{
+  color: #b0c4ef;
+  font-size: 12px;
+  padding-right: 10px;
+}
+.facts-Featureslist ul a{
+  color: #000;
+  font-size: 12px;
+  padding-right: 10px;
+}
+#facts-FeaturesHR hr{
+background-color: #cccfd0;
+width: 90%;
+height: 1px;
+margin-top: 10px;
+margin-right: 85px;
+}
+.facts-FeaturesHeading h3 {
+  color: #95a2be;
+}
+
+.clearfix:after,
+.container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.list-view {
+  margin-top: 0px;
+}
+.list-view ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-view li {
+  float: left;
+  margin-bottom: 30px;
+  position: relative;
+  width: 33.3333%;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+}
+.list-view li  i{
+  font-size: 12px;
+  color: #a5b0c8;
+  padding-right: 10px;
+}
+.list-view li  a{
+  font-size: 12px;
+  color: #000;
+}
+.list-view h3{
+  font-size: 18px;
+  color: #9aa2b2;
+}
+.caption-Popular14 h4 {
+  font-size: 16px;
+  color: #242a3a;
+}
+.thumbnail-video {
+  width: 790px;
+  height: 510px;
+  margin-top: 50px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+  overflow: hidden;
+}
+
+.thumbnail-form {
+  width: 790px;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 125px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
+.thumbnail-form h4{
+  margin-left: 15px;
+}
+.form-agent {
+  width: 300px;
+  height: 100px;
+  margin-left: 25px;
+}
+.form-agent-img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  float: left;
+}
+.form-agent-caption{
+  width: 60%;
+  float: left;
+  padding: 0px 15px;
+  margin: 2px 2px;
+}
+.form-agent-caption h5{
+  color: #26bc58;
+  font-size: 14px;
+}
+.form-agent-caption h6{
+  color: #242a3a;
+  font-size: 16px;
+}
+.form-agent-caption p{
+  color: #727f90;
+  font-size: 12px;
+}
+.formAgent {
+  margin-top: 25px;
+}
+.formAgent >h4{
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.formTextarea textarea{
+  width: 740px;
+  height: 180px;
+  margin: 0 auto;
+}
+.formInline input {
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  margin-left: 23px;
+  margin-bottom: 20px;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: 358px;
+    vertical-align: middle;
+}
+.form button {
+  width: 160px;
+  height: 50px;
+  background-color: #5574bf;
+  color: #fff;
+  border: #5574bf;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.form button:hover {
+  color: #fff;
+  background-color: #4863a4;
+}
+
+.thumbnail14{
+  width: 300px;
+  height: 260px;
+  margin-top: 50px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
+.map14{
+  width: 260px;
+  height: 180px;
+  margin-left: 20px;
+  margin-top: 5px;
+  position: relative;
+}
+.MapPage14{
+    width: 250px;
+    margin-left: -10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.caption14 {
+  width: 100%;
+  margin-top: 45px;
+  margin-left: 39px;
+
+}
+
+.thumbnail-form-sm {
+  width: 300px;
+  height: 420px;
+  margin-top: 50px;
+  margin-bottom: 125px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
+.form-sm {
+  width: 265px;
+  height: 50px;
+  background-color: transparent;
+  color: #4c6193;
+  border: 1px solid #4c6193;
+}
+.form-sm:hover {
+  color: #afb4bb;
+}
+.form-smM{
+  margin-left: 17px;
+}
+.form-smM input{
+ width: 266px;
+ height: 40px;
+}
+.form-smM textarea{
+ width: 266px;
+}
+
