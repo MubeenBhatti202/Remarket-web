@@ -25,7 +25,6 @@ p{
 }
 
 a:hover, a:active, a:focus {
-  color: #fff;
   outline: none;
   text-decoration: none;
 }
@@ -1964,4 +1963,91 @@ margin-right: 85px;
   font-size: 15px;
   line-height: 30px;
   color: #727f90;
+}
+/*--------------------------------------------------------------
+19_Blog_Open
+--------------------------------------------------------------*/
+
+.thumbnail-Downtown19 img {
+  width: 790px;
+  height: 450px;
+  border-radius: 4px;
+}
+.thumbnail-Downtown19-head {
+  margin-top: 100px;
+}
+.thumbnail-Downtown19-head h1{
+  font-size: 24px;
+  color: #242a3a;
+}
+.thumbnail-Downtown19-head p{
+  font-size: 12px;
+  color: #727f90;
+  margin: 30px 0 ;
+}
+.thumbnail-Popular19-head >h3{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #242a3a;
+}
+.thumbnail-Downtown19-body {
+  width: 790px;
+  height: 950px;
+  border-bottom: 1px solid #cccfd0;
+  margin-top: 100px;
+}
+.thumbnail-Downtown19-body p {
+  color: #727f90;s
+  font-size: 15px;
+}
+.thumbnail-Downtown19-body h3 {
+  color: #242a3a;
+  font-size: 20px;
+}
+
+.thumbnail-Downtown19-body-img {
+  width: 368px;
+  height: 300px;
+  margin: 20px 20px 40px 0 ;
+  float: left;
+}
+.thumbnail-Downtown19-body-title {
+  width: 374px;
+  height: 330px;
+  margin-bottom: 30px;
+  float: right;
+}
+.thumbnail-Downtown19-body-title p{
+  color: #727f90
+  font-size: 15px;
+}
+.thumbnail-19 {
+  height: 300px;
+  overflow: hidden;
+}
+.thumbnail-19 img{
+  height: 290px;
+}
+#facts-FeaturesHR-19 hr{
+background-color: #cccfd0;
+width: 100%;
+height: 1px;
+margin-top: 25px;
+margin-bottom: 10px;
+}
+.social-media-19-links {
+  width: 200px;
+  float: left;
+}
+.social-media-19-links span{
+  margin-right:8px;
+}
+.social-media-19-icon {
+  width: 200px;
+  float: right;
+  text-align: right;
+}
+.social-media-19-icon span{
+  margin-left: 8px;
 }
