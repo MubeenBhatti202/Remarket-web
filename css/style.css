@@ -25,7 +25,7 @@ p{
 }
 
 a:hover, a:active, a:focus {
-  color: #26bc58;
+  color: #fff;
   outline: none;
   text-decoration: none;
 }
@@ -1487,7 +1487,7 @@ position:absolute;
 11_Properties_Grid_View_Large_Sidebar
 --------------------------------------------------------------*/
 .map11{
-  width: 100%;
+  width: 98%;
   height: 560px;
   background-color: red;
 }
@@ -1501,7 +1501,7 @@ position:absolute;
 12_Properties_Map_Full_Screen
 --------------------------------------------------------------*/
 .map12{
-  width: 100%;
+  width: 98%;
   height: 860px;
   background-color: red;
 }
@@ -1797,4 +1797,41 @@ margin-right: 85px;
 .form-smM textarea{
  width: 266px;
 }
-
+/*--------------------------------------------------------------
+15_Single_Property_2
+--------------------------------------------------------------*/
+.headerpage15 {
+  background-color: red;
+  height: 650px;
+}
+.container-fluid15 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+#headerpage15img {
+  width: 100%;
+  height: 650px;
+  background: url(../images/page15head.webp) top center;
+  background-size: cover;
+  position: relative;
+}
+.page15Topmargin{
+  padding-top: 480px;
+}
+.downtown15 h2{
+  color: #fff;
+}
+.agent14price15 h3 {
+  color: #fff;
+}
+.thumbnail-Downtown15 {
+  width: 790px;
+  height: 150px;
+  margin-top: 50px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
