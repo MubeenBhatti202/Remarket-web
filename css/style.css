@@ -1863,3 +1863,9 @@ margin-right: 85px;
   background: url(../images/page15.webp);
   background-size: cover;
 }
+
+.blog-Grid h2 {
+  font-size: 36px;
+  color: #000;
+  margin-top: 100px;
+}
