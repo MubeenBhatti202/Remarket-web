@@ -2134,3 +2134,69 @@ margin-bottom: 10px;
   color: #5574bf;
 
 }
+/*--------------------------------------------------------------
+20_Contact_us
+--------------------------------------------------------------*/
+
+.thumbnail20{
+  width: 300px;
+  height: 350px;
+  margin-top: 50px;
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 4px 4px 15px #bfbfbf;
+  padding: 0;
+}
+.caption20 {
+  width: 100%;
+  margin-top: 55px;
+}
+.contact-map ul{
+  padding-left: 28px;
+  margin:  0;
+}
+.widget  ul {
+  list-style: none;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.contact-map li {
+  list-style: none;
+
+}
+.list-item-map a{
+  text-decoration: none;
+  color: #000;
+  line-height: 2.2
+}
+.list-item-map a:hover{
+   color: #708ac9;
+}
+.list-item-map i{
+  margin-top: 10px;
+  text-decoration: none;
+  color: #708ac9;
+}
+.contact_icon {
+  padding-left: 15px;
+}
+.content20 h1 {
+  font-size: 36px;
+  color: #2c3141; 
+}
+.contacUs20form{
+  width: 790px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 130px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px #bfbfbf;
+  padding: 25px;
+}
+.contacUs20form input,textarea{ 
+  margin :0 0 20px 0;
+  height: 50px;
+}
