@@ -2051,3 +2051,86 @@ margin-bottom: 10px;
 .social-media-19-icon span{
   margin-left: 8px;
 }
+.mediaObject-19 {
+  width: 790px;
+  height: 220px;
+  padding-top: 50px;
+  padding-right: 40px;
+  border-bottom: 1px solid #cccfd0;
+  margin-bottom: 10px;
+}
+.mediaObject-19-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.media-body {
+  padding-left: 20px;
+}
+.social-mediaObject-19-icon span{
+  width: 25px;
+  float: right;
+  color: #b9b9b9;
+  padding-right: 15px;
+}
+.mediaObject-19-reply {
+  width: 790px;
+  height: 500px;
+  border-bottom: 1px solid #cccfd0;
+  margin-bottom: 10px;
+}
+.mediaObject-19-reply h3{
+  margin: 50px 0
+}
+.mediaReply-img img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.mediaReply-reply-button h4{
+  display: inline-block;
+}
+.mediaReply-reply-button a{
+  float: right;
+}
+.media-reply-margin-bottom {
+  margin-bottom: 35px;
+}
+.form19 {
+  width: 790px;
+  height: 450px;
+}
+.form19 h3 {
+  color: #242a3a;
+  font-size: 16px;
+}
+.form19 input{
+  width: 380px;
+  height: 50px;
+}
+.form19 textarea{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.from19-btn {
+  background-color: #5574bf;
+  width: 160px;
+  height: 50px;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 0;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-weight: 700;
+  border: 1px solid #5574bf; 
+}
+.from19-btn:hover {
+  background-color: transparent;
+  color: #5574bf;
+
+}
