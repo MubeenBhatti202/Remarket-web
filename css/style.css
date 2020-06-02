@@ -1784,6 +1784,7 @@ margin-right: 85px;
   height: 50px;
   background-color: transparent;
   color: #4c6193;
+  margin-top: -15px;
   border: 1px solid #4c6193;
 }
 .form-sm:hover {
@@ -1798,6 +1799,9 @@ margin-right: 85px;
 }
 .form-smM textarea{
  width: 266px;
+}
+.page14btn-marginTop {
+  margin-top: -50;
 }
 /*--------------------------------------------------------------
 15_Single_Property_2
@@ -2297,4 +2301,146 @@ margin-bottom: 10px;
 }
 .agents21-arrow a{
   color: #dcdfe2;
+}
+/*--------------------------------------------------------------
+22_Agents_Profile
+--------------------------------------------------------------*/
+
+
+.form-sm22 {
+  width: 265px;
+  height: 50px;
+  background-color: #26bc58;
+  color: #fff;
+  margin-top: -15px;
+  border: 1px solid #26bc58;
+}
+.form-sm22:hover {
+  color: #26bc58;
+}
+.backPage-btn{
+  margin-top: 90px;
+}
+.backPage-btn a{
+  color: #727f90;
+  font-size: 15px;
+}
+.backPage-btn i{
+  color: #727f90;
+  font-size: 12px;
+}
+
+.rentalListWeigtMian22 {
+  width: 790px;
+  height: 280px;
+  margin-top: 50px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 2px 2px 10px #bfbfbf;
+}
+.rentalListWeigt-img22 img{
+  width: 320px;
+  height: 280px;
+  position: relative;
+}
+.rentalListWeigt-title22 {
+  width: 460px;
+  height: 279px;
+  float: left;
+  position: relative;
+}
+.rentalListWeigt-title22 h2 {
+  font-size: 32px;
+  color: #242a3a;
+  margin-left: 25px;
+}
+.rentalListWeigt-title22 h3 {
+  font-size: 20px;
+  color: #242a3a;
+  margin-left: 25px;
+}
+.btn-forRent22 {
+    background-color: #26bc58;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    margin: 5px 10px;
+    padding-top: 2px;
+    padding: 2px 0px;
+    line-height: 15px;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: 600;
+    position: absolute;
+    top: 120%;
+    left: 30%;
+}
+.btn-forRent22:hover {
+  background-color: #28db64;
+  color: #fff;
+}
+.weigt-daineRecord{
+  width: 205px;
+  height: 77px;
+  margin-left: 4px;
+  padding: 10px 27px;
+  background-color: #f3f5f7;
+}
+.weigt-daineRecord h4{
+  font-size: 16px;
+  color: #4c6193;
+}
+.weigt-daineRecord h6{
+  font-size: 12px;
+  color: #afb4bb;
+}
+
+.icon22 {
+  margin-left: 25px;
+}
+.icon22-color i{
+  color: #c5c6c6;
+  padding-right: 5px;
+}
+.experienceTitle22 h3 {
+  font-size: 16px;
+  color: #242a3a;
+  margin-top: 50px;
+}
+.experienceTitle22 p {
+  width: 790px;
+  font-size: 15px;
+  color: #727f90;
+}
+.activeListings22 {
+  border: 1px solid red;
+  width: 790px;
+}
+.activeListings22 h3 {
+  font-size: 16px;
+  color: #242a3a;
+}
+.rentalListWeigt22 {
+  width: 790px;
+  height: 190px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 0px;
+  box-shadow: 2px 2px 10px #bfbfbf;
+}
+ .marginBottm22 {
+  margin-bottom: 125px;
+ }
+.contentUs22 {
+  width: 300px;
+  height: 150px;
+  border: 1px solid red;
 }
