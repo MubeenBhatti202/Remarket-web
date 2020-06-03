@@ -7,7 +7,7 @@
 		<meta name="descripton" content="Leaning Bootstrap stuff here">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>20_Contact_us</title>
+		<title>23_Register</title>
 		<!-- bootstrap link -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<!-- Custom Css -->
@@ -22,166 +22,45 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-
 	<body>
-
 		<div class="wrapper">
-<!--==========================
-Header
-============================-->
-			<header id="header04">
-					<div class="container">
-						<nav class="navbar02 navbar-default">
-							<div class="container-fluid">
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									<a class="navbar-brand" href="#">
-										<span>Remarket</span></a>
+			<div class="registration">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="sing-up-form">
+								<h1>Welcome</h1>
+								<div class="form-hr">
+									<hr>
 								</div>
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#remarket" aria-expanded="false">
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									</button>
+								<div class="signinRegiter">
+									<span><a href="24_Sign_In.html">SIGN IN</a></span>&nbsp; &nbsp;
+									<span><a href="23_Register.html">REGISTER</a></span>
 								</div>
-
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="remarket">
-									<ul class="nav nav02 navbar-nav">
-										<li><a href="index.html">Home</a></li>
-										<li><a href="properties.html" target="_blank">Properties</a></li>
-										<li><a href="14_Single_Property.html">Agents</a></li>
-										<li><a href="#">Pages</a></li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contect<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="#">Home</a></li>
-												<li><a href="#">Properties</a></li>
-												<li><a href="#">Agents</a></li>
-												<li><a href="#">Pages</a></li>
-												<li role="separator" class="divider"></li>
-												<li><a href="#">Contect</a></li>
-											</ul>
-										</li>
-									</ul>
-									<form class="navbar-form navbar-right">
-										
-										<a href="05_Properties_Half_Map_List_View.html" class="btn-simple">
-											<i class="glyphicon glyphicon-heart">	
-											</i> &nbsp;Saved
-										</a>
-										<button type="submit" class="btn-navyLight">Sign in</button>
-									</form>
-								</div>
-							</div>
-						</nav>
-					</div>
-			</header>
-<!--==========================
-Hero Section
-============================-->				
-			<main id="main03">
-				<section>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="properties">
+								<form action="" class="form-register">
 									<div class="row">
-										<div class="col-md-12">
-											<div class="content20">
-												<h1>Contact Us</h1>
-											</div>
+										<div class="col-xs-12">
+											<input type="text" class="form-control" placeholder="Your Name">
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3">
-									<div class="map">
-									<!-- 1 -->
-										<div class="thumbnail thumbnail20">
-											<div class="map14">
-												<!-- 1 -->
-													<div class="col-md-12">
-														<a href="08_Properties_Half_Map_Grid_View.html" class="thumbnail MapPage14">
-														<!--Google map-->
-															<div id="map-container-google-1" class="z-depth-1-half map-container" 
-															style=" height: 200px">
-															<iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-															style="border:0" allowfullscreen></iframe>
-															</div>
-														</a>
-														<!--Google Maps-->
-													</div>
-												<!-- 1 -->
-											</div>
-										<div class="caption20">
-											<div class="contact-map">
-												<ul>
-													<li class="list-item-map">
-														<a href="#">
-														<span class="contact_icon">
-															<i class="glyphicon glyphicon-map-marker pull-left"></i>
-														</span>
-														<span class="contact_text">
-															100 Third Avenue 59th NY , USA
-														</span>
-														</a>
-													</li>
-													<li class="list-item-map">
-														<a href="#">
-														<span class="contact_icon">
-															<i class="glyphicon glyphicon-earphone pull-left"></i>
-														</span>
-														<span class="contact_text">
-																212-705-2000
-														</span>
-														</a>
-													</li>
-													<li class="list-item-map">
-														<a href="#">
-														<span class="contact_icon">
-															<i class="glyphicon glyphicon-envelope pull-left"></i>
-														</span>
-														<span class="contact_text">
-																remarket@email.com>
-														</span>
-														</a>
-													</li>
-												</ul>
-											</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<input type="text" class="form-control" placeholder="Email">
 										</div>
 									</div>
-									<!-- 1 -->
+									<div class="row">
+										<div class="col-xs-12">
+										<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+										</div>
 									</div>
-								</div>
-								<div class="col-md-9">
-									<div class="contacUs20form">
-										<form action="">
-											<div class="row">
-												<div class="col-xs-6">
-													<input type="text" class="form-control" placeholder="First Name">
-												</div>
-												<div class="col-xs-6">
-													<input type="text" class="form-control" placeholder="Last Name">
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-xs-12">
-													<input type="text" class="form-control " placeholder="Email">
-												</div>
-											</div>
-											<textarea class="form-control" rows="7" placeholder="Message"></textarea>
-											<button type="submit" class="btn btn-default from19-btn">Send Message</button>
-										</form>
-									</div>
-								</div><!-- end col md 9  -->
+									<button type="button" class="button-Register">Register</button>
+									<p>Already a member? <a href="#">Sign in!</a></p>
+								</form>
 							</div>
 						</div>
 					</div>
-				</section>
-			</main>
+				</div>
+			</div>
 			<footer id="footer">
 				<section class="footergradient ">
 					<div class="container">
@@ -190,7 +69,7 @@ Hero Section
 								<div class="footerHead">
 									<h1 class="text-center">Find the ideal home for you</h1>
 									<div class="text-center">
-										<a href="21_Agents.html" class="btn-footer">
+										<a href="23_Register.html" class="btn-footer">
 											Search Now
 										</a>
 									</div>
@@ -342,7 +221,6 @@ Hero Section
 				</section>
 			</footer>
 		</div>
-
 	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>

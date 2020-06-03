@@ -81,8 +81,9 @@ logo
   color: #fff;
   font-size: 18px;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 8px;
   display: inherit;
+  font-weight: 600;
 }
 .navbar-brand05 span  {
   color: #fff;
@@ -114,6 +115,7 @@ logo
   text-transform: uppercase;
   font-size: 12px;
   outline: none;
+  font-weight: 600;
 }
 .navbar-form button {
   margin-left: 20px;
@@ -794,12 +796,30 @@ Footer
 02-home page
 --------------------------------------------------------------*/
 
-#hero-home {
+#page02-map {
+  background-color: #ffff;
+  height: 650px;
+}
+.form-group02 {
+  margin-top: 35px;
+}
+.post-s02{
   width: 100%;
-  height: 66vh;
-  background: url(../images/map.JPG) top center;
-  background-size: cover;
+  height: 120px;
+  background-color: rgba(22, 25, 51, 0.91);
+  position: absolute;
+  top: 82%; 
+}
+.map02{
+  height: 650px;
+  display: block;
   position: relative;
+}
+.thumbnail02{
+  height: 650px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
 }
 #hero-Properties {
   width: 100%;
@@ -851,7 +871,7 @@ Footer
     border: 1px solid transparent;
 }
 
- {
+.nav{
     margin-top: 8px;
     margin-left: 200px;
 }
@@ -988,7 +1008,7 @@ Footer
 }
 .pageThreeMap {
   width: 300px;
-  height: 390px;
+  height: 395px;
   margin-top: 50px;
 }
 .pageThreeMap img{
@@ -1039,10 +1059,6 @@ Footer
     top: 170px;
     left: 24px;
 }
-/*.caption-Popular h3{
-  display: inline-block;
-  float: left;
-}*/
 .caption-Popular h6{
   display: inline-block;
   padding: 0px;
@@ -1177,9 +1193,6 @@ Footer
   margin-left: 200px;
   margin-bottom: 100px;
 }
-
-
-
 .pagination > li > a, .pagination > li > span {
     position: relative;
     float: left;
@@ -1426,7 +1439,9 @@ position:absolute;
   padding: 0;
   position: relative;
   margin-bottom: 35px;
+  float: left;
 }
+
 .thumbnail-Popular08 img {
   width: 370px;
   height: 225px;
@@ -2442,5 +2457,169 @@ margin-bottom: 10px;
 .contentUs22 {
   width: 300px;
   height: 150px;
-  border: 1px solid red;
+}
+.contentUs22 h3{
+  color: #242a3a;
+  font-size: 16px;
+}
+.contentUs22 a{
+  color: #242a3a;
+  font-size: 12px;
+}
+.contentUs22 a:hover{
+  color: #6e89c8;
+}
+.contentUs22 i{
+  color: #6e89c8;
+  font-size: 12px;
+}
+/*===========================Registartion=================================*/
+.sing-up-form {
+  width: 370px;
+  height: 486px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0, 0.3);
+  background: #ffffff;
+  padding: 20px;
+  margin: 15% auto 25%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.sing-up-form h1{
+  font-size: 36px;
+  color: #242a3a;
+  font-weight: 800;
+}
+.form-hr hr{
+  width: 320px;
+  height: 2px;
+  background-color: #f9fafa; 
+}
+.registration {
+  margin: 0;
+  padding: 0;
+  min-height: 950px;
+  background-image: url(../images/23page_MM.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.input-box {
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+
+}
+.button-Register {
+  border-radius: 50px;
+  width:320px;
+  height: 50px;
+  padding: 10px;
+  background-color: #26bc58;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600; 
+  margin: 10px 0;
+}
+.button-Register:hover{
+  background-color: #30de6a;
+}
+.button-facebook {
+  border-radius: 50px;
+  width:320px;
+  height: 50px;
+  padding: 10px;
+  background-color: #3b5998;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600; 
+  margin: 10px 0;
+}
+.button-facebook:hover{
+  background-color: #496fbd;
+}
+.buttonLog{
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #3b5998;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.button-singin {
+  border-radius: 50px;
+  width: 145px;
+  height: 50px;
+  padding: 10px;
+  background-color: #26bc58;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.button-singin:hover{
+  background-color: #30de6a;
+}
+
+
+.button-pw-loss {
+  line-height: 4.5;
+  padding-right: 6px;
+}
+.signinRegiter {
+  margin-bottom: 30px;
+}
+.signinRegiter a {
+  list-style-type: none;
+  color: #939ca7;
+  font-size: 12px;
+  font-weight: 600;
+}
+.signinRegiter a:hover {
+  color: #26bc58;
+   text-decoration: underline;
+}
+
+.or-bar hr {
+  display: inline-block;
+  width: 100px;
+  margin: 0;
+}
+.form-register input{
+  width: 320px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.form-hr-register span{
+  width: 140px;
+  height: 12px;
+  display: inline-block;
+}
+.registrer-or{
+  display: inline-block;
+}
+.registrer-or a{
+ color: #727f90;
+}
+
+.form-hr-register hr{
+  width: 120px;
+  height: 1px;
+  background-color: #d5d9de;
+  margin: 8px 5px;
+  padding: 0;
 }
