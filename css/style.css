@@ -1429,22 +1429,34 @@ position:absolute;
 .gridView08 {
     margin-left: -15px;
 }
+.rentail-detial08{
+  width: 860px;
+  height: 1500px;
+}
+.nav08-inside{
+  width: 835px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
 
 .thumbnail-Popular08{
-  width: 370px;
-  height: 398px;
+  width: 380px;
+  height: 396px;
   border-radius: 4px;
   border: 1px;
   box-shadow: 4px 4px 15px #bfbfbf;
   padding: 0;
   position: relative;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 20px;
   float: left;
 }
 
 .thumbnail-Popular08 img {
-  width: 370px;
+  width: 380px;
   height: 225px;
+  object-fit: cover;
   border-radius: 4px 4px 0 0;
   position: relative;
 }
@@ -1454,9 +1466,9 @@ position:absolute;
     top: 170px;
     left: 24px;
 }
-.pagination03 {
+.pagination08 {
   margin-left: 270px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 /*--------------------------------------------------------------
 09_Properties_Grid_View_Full_Width
