@@ -1195,10 +1195,12 @@ Footer
 }
 .pagination > li > a, .pagination > li > span {
     position: relative;
+    width: 45px;
+    height: 45px;
     float: left;
     font-size: 16px;
-    padding: 6px 20px;
-    margin-left: -1px;
+    padding: 10px 19px;
+    margin:5px 5px;
     line-height: 1.42857143;
     color: #b9c0c7;
     text-decoration: none;
@@ -1207,13 +1209,20 @@ Footer
     background-color: transparent;
 }
 .pagination > li:first-child > a, .pagination > li:first-child > span {
-    margin-left: 0px;
+    width: 45px;
+    height: 45px;
     border: none;
     border-radius: 50%;
     background-color: #5574bf;
     color: #fff;
-    width: 33px;
-    padding-left: 15px;
+    padding: 11px 21px;
+}
+.pagination a:hover:not(.active) {
+  width: 45px;
+  width: 45px;
+  background-color: #6b93f2;
+  border-radius: 50%;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 04_Properties_List_View
